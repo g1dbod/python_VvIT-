@@ -14,7 +14,7 @@ if s > smax:
     smax = s
 print("Максимальная площадь треугольника", smax)
 
-a, b, c = map(int, input("Введите a, b, c: ").split(maxsplit=3))
+a, b, c = map(int, input("Введите a b c: ").split(maxsplit=3))
 d = b ** 2 - 4 * a * c
 if d == 0:
     print(-b / (2 * a))
